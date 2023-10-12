@@ -2,15 +2,15 @@
   "name": "@prompt-manager-pro/node",
   "version": "0.0.1",
   "description": "nodejs typescript library to interface with prompt manager pro",
-  "main": "dist/index.js",
+  "main": "dist/index.mjs",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.mjs"
     },
-    "./types": "./dist/index.d.ts"
+    "./types": "./dist/index.d.mts"
   },
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.mts",
   "scripts": {
     "build": "tsup"
   },

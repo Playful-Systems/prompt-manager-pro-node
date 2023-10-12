@@ -18,7 +18,7 @@ export const createClient = (options: Options) => {
   return {
     execute: (promptId: string) => async (variables: Variables) => {
       const response = await conduit.post(`/execute/${promptId}`, { variables })
-      return executeSchema.parse(response.data).result
+      return executeSchema.parse(response.data)
     },
     api: {
       view: async (promptId: string) => {
