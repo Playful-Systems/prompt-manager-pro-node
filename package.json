@@ -4,7 +4,7 @@
   "description": "nodejs typescript library to interface with prompt manager pro",
   "scripts": {
     "build": "tsup",
-    "changeset": "changeset",
+    "changeset": "changeset"
   },
   "main": "dist/index.mjs",
   "exports": {
@@ -17,6 +17,7 @@
   "types": "./dist/index.d.mts",
   "keywords": [],
   "author": "Prompt Manager Pro",
+  "packageManager": "pnpm@8.7.5",
   "dependencies": {
     "@playful-systems/conduit": "^0.8.0",
     "zod": "^3.22.4"
