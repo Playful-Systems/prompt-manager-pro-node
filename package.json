@@ -1,6 +1,6 @@
 {
   "name": "@prompt-manager-pro/node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nodejs typescript library to interface with prompt manager pro",
   "scripts": {
     "build": "tsup",
