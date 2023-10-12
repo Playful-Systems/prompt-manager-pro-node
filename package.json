@@ -4,7 +4,8 @@
   "description": "nodejs typescript library to interface with prompt manager pro",
   "scripts": {
     "build": "tsup",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "publish:ci": "pnpm build && pnpm changeset publish"
   },
   "main": "dist/index.mjs",
   "exports": {
